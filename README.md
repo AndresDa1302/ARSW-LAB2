@@ -17,12 +17,18 @@ Creación, puesta en marcha y coordinación de hilos.
 <p align="center">
   <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte1.png?raw=true" alt="Sublime's custom image"/>
 </p>
-![](./img/media/time1.png)
+<p align="center">
+  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time1.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 2. Modifique el programa para que, en lugar de resolver el problema con un solo hilo, lo haga con tres, donde cada uno de éstos hará la tarcera parte del problema original. Verifique nuevamente el funcionamiento, y nuevamente revise el uso de los núcleos del equipo.
 
-![](./img/media/Iparte2.png)
-![](./img/media/time2.png)
+<p align="center">
+  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte2.png?raw=true" alt="Sublime's custom image"/>
+</p>
+<p align="center">
+  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time2.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
 
