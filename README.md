@@ -14,7 +14,7 @@ Creación, puesta en marcha y coordinación de hilos.
 
 1. Revise el programa “primos concurrentes” (en la carpeta parte1), dispuesto en el paquete edu.eci.arsw.primefinder. Este es un programa que calcula los números primos entre dos intervalos, distribuyendo la búsqueda de los mismos entre hilos independientes. Por ahora, tiene un único hilo de ejecución que busca los primos entre 0 y 30.000.000. Ejecútelo, abra el administrador de procesos del sistema operativo, y verifique cuantos núcleos son usados por el mismo.
 
-**  Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras ejecutar el programa, pero sus usos son mas prologandos.
+* Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras ejecutar el programa, pero sus usos son mas prologandos.
   
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte1.png?raw=true" alt="Sublime's custom image"/>
