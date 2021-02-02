@@ -19,7 +19,9 @@ Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras e
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte1.png?raw=true" alt="Sublime's custom image"/>
   </p>
+  
   El tiempo de ejecución es mas prolongado.
+  
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time1.png?raw=true" alt="Sublime's custom image"/>
   </p>
