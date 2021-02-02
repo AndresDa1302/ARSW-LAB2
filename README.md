@@ -147,3 +147,7 @@ Parte III
     </p>
     
 
+### Integrantes
+David Leonardo Coronado
+Andres Felipe Davila
+
