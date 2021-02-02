@@ -113,7 +113,7 @@ Parte III
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/unknown.png?raw=true" alt="Sublime's custom image"/> 
   </p>
   
-  La siguente imagen es un fragmento del codigo de la clase Galgo, donde se encuentran las regiones critica.
+     La siguente imagen es un fragmento del codigo de la clase Galgo, donde se encuentran las regiones critica.
    
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regioncritica2.png?raw=true" alt="Sublime's custom image"/> 
