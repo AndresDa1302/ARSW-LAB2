@@ -102,22 +102,21 @@ Parte III
     críticas () del programa.
     
     Despues de ejecutar varias vecez el programa se encontraron las siguientes inconcistencias:
-    
     Hay algunos valores incorrectos como que estan repetidos los números de llegada o  pueda que la llegada de determinado galgo no sea la correcta.
-  <p align="center">
-    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regionCritica.png?raw=true" alt="Sublime's custom image"/> 
-  </p>
-  
+    <p align="center">
+      <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regionCritica.png?raw=true" alt="Sublime's custom image"/> 
+    </p>
     
-   El siguiente valor no es correcto ya que el número total de galgos es 17. 
+    El siguiente valor no es correcto ya que el número total de galgos es 17. 
     
    
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/unknown.png?raw=true" alt="Sublime's custom image"/> 
   </p>
-
-   La siguente imagen es un fragmento del codigo de la clase Galgo, donde se encuentran las regiones critica.
-   <p align="center">
+  
+  La siguente imagen es un fragmento del codigo de la clase Galgo, donde se encuentran las regiones critica.
+   
+  <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regioncritica2.png?raw=true" alt="Sublime's custom image"/> 
     </p>
 
