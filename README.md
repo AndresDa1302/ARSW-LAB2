@@ -140,10 +140,10 @@ Parte III
     Para lograr que el juego se pause y continue se crea un clase MonitorDogTrainer que permitira detener los Threads galgos al momento de que se precione Stop o que continuen     si es el caso utilizando el mecanismo de sincronización.
     
     <p align="center">
-    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/start.png?raw=true" alt="Sublime's custom image"/> 
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/pausa.png?raw=true" alt="Sublime's custom image"/> 
     </p>
      <p align="center">
-    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/pause.png?raw=true" alt="Sublime's custom image"/> 
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/start.png?raw=true" alt="Sublime's custom image"/> 
     </p>
     
 
