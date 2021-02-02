@@ -28,8 +28,7 @@ Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras e
 
 2. Modifique el programa para que, en lugar de resolver el problema con un solo hilo, lo haga con tres, donde cada uno de éstos hará la tarcera parte del problema original. Verifique nuevamente el funcionamiento, y nuevamente revise el uso de los núcleos del equipo.
 
-
-  Con 3 hilos, a diferencia del punto anterior el uso de los nucleos es de un tiempo menor, pero en este intervalo de tiempo estan constantemente trabajando, con respecto a la   anterior imagen que pareciera que se dividieran el trabajo pero con un tiempo mayor.
+Con 3 hilos, a diferencia del punto anterior el uso de los nucleos es de un tiempo menor, pero en este intervalo de tiempo estan constantemente trabajando, con respecto a la   anterior imagen que pareciera que se dividieran el trabajo pero con un tiempo mayor.
   
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte2.png?raw=true" alt="Sublime's custom image"/>
@@ -42,9 +41,9 @@ Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras e
   </p>
 
   3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y   se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
-
+  
   Para lo siguiente se crearon dos clases nuevas Monitor y Mythread las cuales permiten sincronizar los objetos instanciados de la clase PrimeFinderThread (que hereda de Thread   y calcula los números primos entre un rango determinado), en las siguientes imagenes se puede evidenciar la ejecución del programa y su correcto funcionamiento debido a las     especificaciones requeridas.
-
+  
   Despues de trascurridos 5 segundos el programa se detiene.
 
 <p align="center">
