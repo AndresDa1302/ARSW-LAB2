@@ -109,7 +109,7 @@ Parte III
 
    La siguente imagen es un fragmento del codigo de la clase Galgo, donde se encuentran las regiones critica.
    <p align="center">
-    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regionCritica2.png?raw=true" alt="Sublime's custom image"/> 
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regioncritica2.png?raw=true" alt="Sublime's custom image"/> 
     </p>
 
 3.  Utilice un mecanismo de sincronización para garantizar que a dichas
@@ -140,10 +140,10 @@ Parte III
     Para lograr que el juego se pause y continue se crea un clase MonitorDogTrainer que permitira detener los Threads galgos al momento de que se precione Stop o que continuen     si es el caso utilizando el mecanismo de sincronización.
     
     <p align="center">
-    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/exclucion start.png?raw=true" alt="Sublime's custom image"/> 
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/start.png?raw=true" alt="Sublime's custom image"/> 
     </p>
      <p align="center">
-    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/exclucion pause.png?raw=true" alt="Sublime's custom image"/> 
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/pause.png?raw=true" alt="Sublime's custom image"/> 
     </p>
     
 
