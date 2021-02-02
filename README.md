@@ -137,7 +137,7 @@ Parte III
     deberían dormirse, y cuando se haga clic en ‘Continue’ los mismos
     deberían despertarse y continuar con la carrera. Diseñe una solución que permita hacer esto utilizando los mecanismos de sincronización con las primitivas de los Locks         provistos por el lenguaje (wait y notifyAll).
     
-    Para lograr que el juego se pause y continue se crea un clase MonitorDogTrainer que permitira detener los Threads galgos al momento de que se precione Stop o que continuen     si es el caso utilizando el mecanismo de sincronización.
+    Para lograr que el juego se pause y continue se crea un clase MonitorDogTrainer que permitira detener los Threads galgos al momento de que se precione Stop o que continuen     si es el caso utilizando el mecanismo de sincronización con los metodos wai() y nofityAll().
     
     <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/pausa.png?raw=true" alt="Sublime's custom image"/> 
@@ -149,6 +149,5 @@ Parte III
 
 ### Integrantes
 David Leonardo Coronado
-
 Andres Felipe Davila
 
