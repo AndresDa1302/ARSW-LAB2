@@ -14,26 +14,30 @@ Creación, puesta en marcha y coordinación de hilos.
 
 1. Revise el programa “primos concurrentes” (en la carpeta parte1), dispuesto en el paquete edu.eci.arsw.primefinder. Este es un programa que calcula los números primos entre dos intervalos, distribuyendo la búsqueda de los mismos entre hilos independientes. Por ahora, tiene un único hilo de ejecución que busca los primos entre 0 y 30.000.000. Ejecútelo, abra el administrador de procesos del sistema operativo, y verifique cuantos núcleos son usados por el mismo.
 
-Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras ejecutar el programa, pero sus usos son mas prologandos.
-<p align="center">
-  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte1.png?raw=true" alt="Sublime's custom image"/>
-</p>
-El tiempo de ejecución es mas prolongado.
-<p align="center">
-  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time1.png?raw=true" alt="Sublime's custom image"/>
-</p>
+  Con un hilo se puede evidenciar que hay cuatro núcleos en funcionamiento tras ejecutar el programa, pero sus usos son mas prologandos.
+  
+  <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte1.png?raw=true" alt="Sublime's custom image"/>
+  </p>
+  El tiempo de ejecución es mas prolongado.
+  <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time1.png?raw=true" alt="Sublime's custom image"/>
+  </p>
 
 2. Modifique el programa para que, en lugar de resolver el problema con un solo hilo, lo haga con tres, donde cada uno de éstos hará la tarcera parte del problema original. Verifique nuevamente el funcionamiento, y nuevamente revise el uso de los núcleos del equipo.
 
 
-Con 3 hilos, a diferencia del punto anterior el uso de los nucleos es de un tiempo menor, pero en este intervalo de tiempo estan constantemente trabajando, con respecto a la anterior imagen que pareciera que se dividieran el trabajo pero con un tiempo mayor.
-<p align="center">
-  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte2.png?raw=true" alt="Sublime's custom image"/>
-</p>
-El tiempo de ejecucíon es menos prolongado con respecto a un hilo.
-<p align="center">
-  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time2.png?raw=true" alt="Sublime's custom image"/>
-</p>
+  Con 3 hilos, a diferencia del punto anterior el uso de los nucleos es de un tiempo menor, pero en este intervalo de tiempo estan constantemente trabajando, con respecto a la   anterior imagen que pareciera que se dividieran el trabajo pero con un tiempo mayor.
+  
+  <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte2.png?raw=true" alt="Sublime's custom image"/>
+  </p>
+  
+  El tiempo de ejecucíon es menos prolongado con respecto a un hilo.
+  
+  <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time2.png?raw=true" alt="Sublime's custom image"/>
+  </p>
 
   3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y   se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
 
