@@ -14,11 +14,17 @@ public class MainCanodromo {
     private static Canodromo can;
 
     private static RegistroLlegada reg = new RegistroLlegada();
-
+    
+    private static Monitor registrador;
+    
+    private static MonitorDogTrainer trainer;
+    
     public static void main(String[] args) {
         can = new Canodromo(17, 100);
         galgos = new Galgo[can.getNumCarriles()];
         can.setVisible(true);
+        registrador=new Monitor(reg);
+        trainer = new MonitorDogTrainer();
 
         //Acción del botón start
         can.setStartAction(
@@ -26,7 +32,7 @@ public class MainCanodromo {
 
                     @Override
                     public void actionPerformed(final ActionEvent e) {
-						//como acción, se crea un nuevo hilo que cree los hilos
+                        //como acción, se crea un nuevo hilo que cree los hilos
                         //'galgos', los pone a correr, y luego muestra los resultados.
                         //La acción del botón se realiza en un hilo aparte para evitar
                         //bloquear la interfaz gráfica.
@@ -35,7 +41,7 @@ public class MainCanodromo {
                             public void run() {
                                 for (int i = 0; i < can.getNumCarriles(); i++) {
                                     //crea los hilos 'galgos'
-                                    galgos[i] = new Galgo(can.getCarril(i), "" + i, reg);
+                                    galgos[i] = new Galgo(can.getCarril(i), "" + i, registrador, trainer);
                                     //inicia los hilos
                                     galgos[i].start();         
                                 }
@@ -61,6 +67,7 @@ public class MainCanodromo {
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        trainer.stopRunDog();
                         System.out.println("Carrera pausada!");
                     }
                 }
@@ -70,6 +77,7 @@ public class MainCanodromo {
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        trainer.allRun();
                         System.out.println("Carrera reanudada!");
                     }
                 }
