@@ -106,7 +106,7 @@ Parte III
       <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regionCritica.png?raw=true" alt="Sublime's custom image"/> 
     </p>
     
-    El siguiente valor no es correcto ya que el número total de galgos es 17. 
+     El siguiente valor no es correcto ya que el número total de galgos es 17. 
     
    
   <p align="center">
