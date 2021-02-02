@@ -25,9 +25,12 @@ El tiempo de ejecución es mas prolongado.
 
 2. Modifique el programa para que, en lugar de resolver el problema con un solo hilo, lo haga con tres, donde cada uno de éstos hará la tarcera parte del problema original. Verifique nuevamente el funcionamiento, y nuevamente revise el uso de los núcleos del equipo.
 
+
+Con 3 hilos, a diferencia del punto anterior el uso de los nucleos es de un tiempo menor, pero en este intervalo de tiempo estan constantemente trabajando, con respecto a la anterior imagen que pareciera que se dividieran el trabajo pero con un tiempo mayor.
 <p align="center">
   <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/Iparte2.png?raw=true" alt="Sublime's custom image"/>
 </p>
+El tiempo de ejecucíon es menos prolongado con respecto a un hilo.
 <p align="center">
   <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time2.png?raw=true" alt="Sublime's custom image"/>
 </p>
