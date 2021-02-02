@@ -94,22 +94,43 @@ Parte III
     
     Despues de ejecutar varias vecez el programa se encontraron las siguientes inconcistencias:
     
+    Hay algunos valores incorrectos como que estan repetidos los números de llegada o  pueda que la llegada de determinado galgo no sea la correcta.
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regionCritica.png?raw=true" alt="Sublime's custom image"/> 
   </p>
   
     
- El siguiente valor no es correcto ya que el numero total de galgos es 17 
+   El siguiente valor no es correcto ya que el número total de galgos es 17. 
     
    
   <p align="center">
     <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/unknown.png?raw=true" alt="Sublime's custom image"/> 
   </p>
-    
+
+   La siguente imagen es un fragmento del codigo de la clase Galgo, donde se encuentran las regiones critica.
+   <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/regionCritica2.png?raw=true" alt="Sublime's custom image"/> 
+    </p>
 
 3.  Utilice un mecanismo de sincronización para garantizar que a dichas
     regiones críticas sólo acceda un hilo a la vez. Verifique los
     resultados.
+    
+    Aplicamos exclusión mutua utilizando el mecanismo de sincronización, para lograr esto se creó la clase Monitor que sincronizara la llegada de los galgos y se permita           registrar correctamente.
+    
+    Luego de varios intentos se puede ver que no hay errores en datos.
+    <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/exclucion mutua2.png?raw=true" alt="Sublime's custom image"/> 
+    </p>
+    
+    <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/exclucion mutua.png?raw=true" alt="Sublime's custom image"/> 
+    </p>
+   
+   
+   
+    
+    
 
 4.  Implemente las funcionalidades de pausa y continuar. Con estas,
     cuando se haga clic en ‘Stop’, todos los hilos de los galgos
