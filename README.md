@@ -32,7 +32,7 @@ El tiempo de ejecución es mas prolongado.
   <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/time2.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
+  3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y   se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
 
   Para lo siguiente se crearon dos clases nuevas Monitor y Mythread las cuales permiten sincronizar los objetos instanciados de la clase PrimeFinderThread (que hereda de Thread   y calcula los números primos entre un rango determinado), en las siguientes imagenes se puede evidenciar la ejecución del programa y su correcto funcionamiento debido a las     especificaciones requeridas.
 
