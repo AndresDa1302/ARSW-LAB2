@@ -34,6 +34,20 @@ El tiempo de ejecución es mas prolongado.
 
 3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
 
+Para lo siguiente se crearon dos clases nuevas Monitor y Mythread las cuales permiten sincronizar los objetos instanciados de la clase PrimeFinderThread (que hereda de Thread y calcula los números primos entre un rango determinado), en las siguientes imagenes se puede evidenciar la ejecución del programa y su correcto funcionamiento debido a las especificaciones requeridas.
+
+Despues de trascurridos 5 segundos el programa se detiene.
+
+<p align="center">
+  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/stop.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+Despues  de precionar enter el programa sigue su ejecución.
+
+<p align="center">
+  <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/inicia.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 
 
 ### Parte II 
@@ -63,6 +77,13 @@ Parte III
     a.  La acción de iniciar la carrera y mostrar los resultados se realiza a partir de la línea 38 de MainCanodromo.
 
     b.  Puede utilizarse el método join() de la clase Thread para sincronizar el hilo que inicia la carrera, con la finalización de los hilos de los galgos.
+    
+    Agregamos el metodo join() para los objetos de la clase Galgo debidamente y asi el aviso de resultados se mostrara al final de que los galgos lleguen a la meta.
+    
+  <p align="center">
+    <img src="https://github.com/AndresDa1302/ARSW-LAB2/blob/master/img/media/join().png?raw=true" alt="Sublime's custom image"/> 
+  </p>
+    
 
 2.  Una vez corregido el problema inicial, corra la aplicación varias
     veces, e identifique las inconsistencias en los resultados de las
@@ -70,6 +91,8 @@ Parte III
     podrían salir resultados válidos, pero en otros se pueden presentar
     dichas inconsistencias). A partir de esto, identifique las regiones
     críticas () del programa.
+    
+    
 
 3.  Utilice un mecanismo de sincronización para garantizar que a dichas
     regiones críticas sólo acceda un hilo a la vez. Verifique los
